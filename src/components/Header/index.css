@@ -1,0 +1,46 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20rem;
+    padding-right: 10rem;
+    height: 8rem;
+    align-items: center;
+}
+.header-menu nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50rem;
+    align-items: center;
+}
+.header-menu img {
+    width: 5rem;
+}
+.header-menu span h1 {
+    margin: 0;
+    color: white;
+}
+.header-menu nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.header-menu nav a:hover {
+    border-bottom: 1px solid white;
+    transition: all 0.5s;
+}
+.header-menu nav button {
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    width: 8rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+}
+.header-menu nav button:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+    cursor: pointer;
+}
