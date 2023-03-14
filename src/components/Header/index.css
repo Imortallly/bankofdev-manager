@@ -1,11 +1,19 @@
+header {
+    width: 100%;
+    position: fixed;
+}
+
 .header-menu {
     display: flex;
     justify-content: space-between;
-    padding-left: 20rem;
-    padding-right: 10rem;
     height: 8rem;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 18rem;
+    padding-right: 10rem;
 }
+
 .header-menu nav {
     display: flex;
     justify-content: space-around;
