@@ -5,14 +5,14 @@ function Header () {
     return (
         <header>
             <section className='header-menu'>
-                <span><img src={icon}/><h1>Bank of Dev</h1></span>
                 <nav>
+                <span><img src={icon}/><h1>Bank of Dev</h1></span>
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">Services</a>
                     <a href="#">Contact</a>
-                    <button className='btn-login'>Login</button>
                 </nav>
+                <button className='btn-login'>Login</button>
             </section>
         </header>
     )
