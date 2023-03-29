@@ -13,13 +13,12 @@
 }
 
 .box-info {
-    border: 2px solid black;
     width: 65rem;
     height: 40rem;
     align-items: center;
 }
 
-.box-info div {
+.new {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -41,9 +40,11 @@
     font-size: 3rem;
     color: white;
     font-weight: bold;
+    
 }
 .logo-show img {
-    right: 10rem
+    right: 10rem;
+    padding-right: 0.5rem;
 }
 
 .image-show {
@@ -66,4 +67,39 @@
     font-size: 1.3rem ;
     margin: 1;
     font-weight: 400;
+}
+.email {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.email input {
+    width: 25rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    background-color: rgba(45, 86, 152, 0.5);
+    border: 2px solid rgb(199, 230, 243);
+    margin-top: 2rem;
+    text-align: start;
+    font-size: large;
+    padding: 0 10px 0 29px;
+    color:rgb(199, 230, 243);
+    outline: none;
+}
+.email input::placeholder {
+    color: rgb(199, 230, 243);
+}
+.email input:hover {
+    
+}
+
+.email button {
+    width: 10rem;
+    height: 3.8rem;
+    margin-top: 2rem;
+    margin-left: 0.4rem;
+    border: 2px solid black;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 8px;
 }
